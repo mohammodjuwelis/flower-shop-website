@@ -18,10 +18,15 @@ body{
     color: #FFF;
     border-radius: 8px;
     background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
+
 .header-area {
-    padding: 50px 80px 0 100px;
+    padding: 50px 80px 0 132px;
     background-color: #E554731A;
     display: flex;
     justify-content: space-between;
@@ -45,16 +50,253 @@ body{
     margin-bottom: 18px;
 }
 
-.btn{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
-}
 
 .header-pic{
     max-height: 650px;
 }
+
+
+
+/* this is our feature  */
+
+.our-feature {
+    padding: 75px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.our-feature-header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.our-feature-header-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.our-feature-header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.our-feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.our-feature-pic{
+    width: 350px;
+    height: 470px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(212, 26, 116, 0.15);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.our-feature-img-caption{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.our-delivery-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.our-delivery-content{
+    text-align: center;
+}
+
+.our-delivery-caption{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+
+/* this is about area  */
+.about-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7b2c1;
+    padding: 50px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+
+
+.about-head-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.crimson{
+    color: crimson;
+}
+
+.about-head-description {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+/* this is instagram  */
+.instagram-area{
+    padding: 75px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.instagram-head{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.instagram-header-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.instagram-header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.instagram-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.instagram-content{
+    max-width: 270px;
+}
+
+.instagram-content img{
+    width: 100%;
+}
+
+.newsletter{
+    background-image: url(../image/newsletter.png);
+    background-position: top bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    padding: 80px 50px;
+}
+
+.newsletter-header{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.newsletter-head-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.newsletter-head-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field input {
+    width: 50%;
+    height: 40px;
+    max-height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 12px;
+    margin-right: 15px;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 40px;
+    max-height: 45px;
+    text-align: center;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #E55473;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.footer-area {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+}
+
+.footer-content{
+
+}
+
+.footer-head-title{
+
+}
+
+
+.footer-head-description{
+    
+}
+
+
 
 
 
