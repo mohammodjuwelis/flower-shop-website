@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.btn-primary{
+    padding: 20px 43px;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.header-area {
+    padding: 20px 130px 20px 20px;
+    background-color: #E554731A;
+}
+
+
+
