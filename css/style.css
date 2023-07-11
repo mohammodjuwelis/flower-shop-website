@@ -25,20 +25,24 @@ body{
 }
 
 
+
 .header-area {
-    padding: 50px 80px 0 132px;
+    padding: 50px 80px 80px 132px;
     background-color: #E554731A;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-image: url("../image/pngwing 10.png");
+    background-position: bottom right 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
 }
+
 
 .header-title{
     color: #272727;
     font-size: 58px;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 18px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 25px;
 }
 
 
@@ -51,16 +55,11 @@ body{
 }
 
 
-.header-pic{
-    max-height: 650px;
-}
-
-
 
 /* this is our feature  */
 
 .our-feature {
-    padding: 75px 0;
+    padding: 45px 0 75px 0;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -73,7 +72,7 @@ body{
 .our-feature-header-title {
     color: #272727;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -135,11 +134,11 @@ body{
 
 
 /* this is about area  */
-.about-area{
+.about-area {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f7b2c1;
+    background-color: #b94e7a1a;
     padding: 50px;
 }
 
@@ -184,10 +183,10 @@ body{
     text-align: center;
     margin-bottom: 55px;
 }
-.instagram-header-title{
+.instagram-header-title {
     color: #272727;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -232,7 +231,7 @@ body{
 .newsletter-head-title {
     color: #272727;
     font-size: 35px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 12px;
 }
 
@@ -284,16 +283,30 @@ body{
 }
 
 .footer-content{
-
+    text-align: center;
 }
 
 .footer-head-title{
-
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 13px;
 }
 
 
-.footer-head-description{
-    
+.footer-head-description {
+    color: #b9b6b6;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.copy-right {
+    color: #8d8383;
+    font-size: 12px;
 }
 
 
