@@ -21,9 +21,44 @@ body{
 }
 
 .header-area {
-    padding: 20px 130px 20px 20px;
+    padding: 50px 80px 0 100px;
     background-color: #E554731A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-title{
+    color: #272727;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.header-pic{
+    max-height: 650px;
+}
+
+
+
+
 
 
 
